@@ -1,0 +1,40 @@
+.rodape{
+    background-color: #D8F1A0;
+    color: #154260;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape ul li{
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.rodape ul li:last-child{
+    margin-right: 0px;
+}
+
+.logosquadcards img{
+    height: 150px;
+}
+
+.desenvolvido{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.desenvolvido h6 a {
+    color: #154260;  
+}
+
+@media only screen and (max-width:800px) {
+    .rodape{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .desenvolvido{
+        text-align: center;
+    }
+}

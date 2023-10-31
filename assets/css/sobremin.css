@@ -1,0 +1,54 @@
+.quem-somos {
+    display: flex;
+    min-height: 80vh;
+}
+
+.quem-somos-text {
+    width: 40vw;
+    margin: 4vw 5vw;
+}
+
+.quem-somos-p{
+    font-size: 1.2em;
+    margin: 2vh;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.quem-somos-img {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+}
+
+.quem-somos-banner {
+    width: 600px;
+    height: 300px;
+}
+
+@media only screen and (max-width:1200px){
+    .quem-somos{
+        display: block;
+    }
+
+    .quem-somos-text{
+        width: auto;
+        margin: 10vw 5vh;
+    }
+
+    .quem-somos-p{
+        margin: 5vh 0;
+    }
+
+    .quem-somos-img{
+        width: auto;
+        justify-content: space-around;
+    }
+
+    .quem-somos-banner{
+        max-width: 90vw;
+        height: auto;
+        align-items: center;
+    }
+
+}

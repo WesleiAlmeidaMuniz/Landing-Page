@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon/hammer.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/sobremin.css">
+    <link rel="stylesheet" href="assets/css/galeria.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <title>Promoção - Loja de móveis</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <figure class="logo-cabecalho">
+            <img src="assets/imagem/Logo.png" alt="Logo da loja" class="logo">
+        </figure>
+        <section class="menu">
+            <a href="#quemsomos" class="item-menu">Quem Somos</a>
+            <a href="#galeria" class="item-menu">Galeria</a>
+            <a href="#contato" class="item-menu">Contato</a>
+        </section>
+    </header>
+    <section class="quem-somos" id="quemsomos">
+        <div class="quem-somos-text">
+            <p class="quem-somos-p">
+                Bem-vindo à "Móveis Elegantes"! Somos uma loja de móveis que oferece uma seleção exuberante de peças
+                cuidadosamente projetadas para transformar sua casa em um espaço verdadeiramente especial. Nossa loja é
+                o destino perfeito para aqueles que buscam o equilíbrio perfeito entre funcionalidade e estilo.
+            </p>
+            <p class="quem-somos-p">
+                Na "Móveis Elegantes", você encontrará uma variedade de móveis que se encaixam em qualquer estilo de
+                decoração, desde o minimalismo moderno até o luxo clássico. Nossas coleções incluem sofás confortáveis,
+                mesas de jantar elegantes, camas aconchegantes, armários espaçosos e muito mais. Trabalhamos com
+                designers talentosos para garantir que cada peça em nossa loja seja uma obra de arte por si só.
+            </p>
+            <p class="quem-somos-p">
+                Nossa equipe de atendimento ao cliente está à disposição para ajudá-lo a encontrar os móveis perfeitos
+                para atender às suas necessidades e gostos. Além disso, oferecemos opções de personalização para que
+                você possa criar um ambiente que seja verdadeiramente seu.
+            </p>
+        </div>
+        <div class="quem-somos-img">
+            <img class="quem-somos-banner" src="assets/imagem/quemsomos.png" alt="Banner quem somos">
+        </div>
+    </section>
+    <section class="galeria" id="galeria">
+        <h2 class="titulo-galeria">Configura alguns dos nossos moveis.</h2>
+        <picture class="galeria-picture">
+            <img class="galeria-imagens" src="assets/imagem/movel1.jpg" alt="Imagem Movel 1">
+            <img class="galeria-imagens" src="assets/imagem/movel2.jpg" alt="Imagem Movel 2">
+            <img class="galeria-imagens" src="assets/imagem/movel3.jpg" alt="Imagem Movel 3">
+            <img class="galeria-imagens" src="assets/imagem/movel4.jpg" alt="Imagem Movel 4">
+            <img class="galeria-imagens" src="assets/imagem/movel5.jpg" alt="Imagem Movel 5">
+            <img class="galeria-imagens" src="assets/imagem/movel6.jpg" alt="Imagem Movel 6">
+        </picture>
+    </section>
+    <h1 class="titulo-contato" id="contato">Contato</h1>
+    <section class="seccao-contato">
+        <div class="image-contato">
+            <iframe class="mapa-contato" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233965.27591230476!2d-46.48389209531662!3d-23.61482318383117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7176a5cf4309%3A0x7678f276a368e6e2!2sSuzano%20-%20Palmeiras%20de%20S%C3%A3o%20Paulo%2C%20Suzano%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1698707734845!5m2!1spt-BR!2sbr" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form action="https://formsubmit.co/weslei_almeida@yahoo.com.br" method="POST" class="formulario">
+            <section class="formulario-filho">
+                <form>
+                    <div class="input-container">
+                        <input type="name" id="nome" class="input-padrao input" placeholder="Nome" name="nome" required>
+                        <label for="nome" class="input-label">Nome</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" id="email" class="input-padrao input" name="email" required
+                            placeholder="Email">
+                        <label for="email" class="input-label">Email</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" id="telefone" class="input-padrao input" name="telefone" required
+                            placeholder="(XX) XXXXX-XXXX">
+                        <label for="telefone" class="input-label">Telefone</label>
+                    </div>
+                    <div class="input-container">
+                        <textarea name="mensagem" id="mensagem" cols="65" rows="10" class="input-padrao input mensagem"
+                            placeholder="Por favor, fique à vontade para nos enviar sua mensagem, de preferência incluindo seus contatos e as medidas dos móveis"
+                            required></textarea>
+                        <label for="mensagem" class="input-label">Mensagem</label>
+                    </div>
+                    <input type="submit" value="Enviar" class="enviar">
+                </form>
+            </section>
+        </form>
+    </section>
+    <footer class="rodape">
+        <section>
+            <ul>
+                <li><a href="https://facebook.com/" target="_blank"><img src="assets/imagem/fb.png"
+                            alt="Logo Facebook"></a></li>
+                <li><a href="https://twitter.com" target="_blank"><img
+                            src="assets/imagem/tw.png" alt="Logo Twitter"></a></li>
+                <li><a href="https://instagram.com" target="_blank"><img
+                            src="assets/imagem/ig.png" alt="Logo Instagram"></a></li>
+            </ul>
+        </section>
+        <section class="logosquadcards"><img src="assets/imagem/Logo.png" alt="Logo SquadCards"></section>
+        <section class="desenvolvido">
+            <h6>Desenvolvido por <a href="https://www.linkedin.com/in/wesleialmeidamuniz/" target="_blank">Weslei
+                    Almeida Muniz</a>.</h6>
+        </section>
+    </footer>
+    <script src="assets/js/functions.js"></script>
+</body>
+
+</html>
